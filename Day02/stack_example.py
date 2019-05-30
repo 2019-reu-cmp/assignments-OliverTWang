@@ -10,6 +10,7 @@ def c(x, y, z):
 
 
 def b(z):
+    '''squares the input'''
   prod = a(z, z)
   print(z, prod)
   return prod

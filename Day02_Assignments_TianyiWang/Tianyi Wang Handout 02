@@ -1,0 +1,10 @@
+1: If tolerance is 10^-3, I would expect 10 iterations; if tolerance is 10^-6, I would expect 20 iterations; if tolerance is 10^-9, I would expect 30 iterations. This is because in a single iteration, the difference between xa and xb shrinks by a half. Because 2^10 > 1000 and initial difference between xb and xa is 1, in the 10th iteration this difference will become less than 1/1000, or 10^-3, and satisfies the termination condition. Similarly, because 2^19 < 10^6 < 2^20 and 2^29 < 10^9 < 2^30, we have that 20 and 30 iterations are needed for the corresponding tolerance.
+
+2: To make this function eaiser to use, I can create another module and import bisection.py in it;  I can print instructions that tell people this function is used to estimate the number x that satisfies x=cos(x) and change tolerance according to user input. 
+
+3: Tuples are imutable, which means that the elements in a tuple cannot be changed, but in a list you can add, subtract, and rearrange elements using contents like list.append[].
+A dictionary is a key value storage; unlike tuples, dictionaries are not ordered, and the keys are all hashable, i.e. permanently bound to some fixed value.
+A set is also not ordered like a dictionary, but its elements can be arbitrarily added and removed, and doesn't have to be hashable.
+
+4:I would use command like "if type(variable)=list:     print('The variable is a list')
+else:     print('The variable is not a list')"
