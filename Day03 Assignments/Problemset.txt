@@ -1,0 +1,9 @@
+1: while loop executes when the condition given is true, so how many times it repeats is not specified, but that in for loop is specified by number of items in the container.
+
+2: I only need 2 iterations using the formula to specify pi to the 6th decimal. It deviate from math.pi by -4.440892098500626e-16.
+
+3: I can access a file via graphical interface, via python command open(filename, 'r') and using commands like .read() or .readline(), or in linux using terminal, bash, and tools like nano or vim. The first one is easy, the second one is useful in scripts, and the third one is quickest
+
+4: with automatically closes the file open() opens after execution, and limits the definition of f in the specific block it is defined, leaving no leftovers.
+
+5:list, tuple, string, and generator are iterables. an iterable means that it has multiple elements that holds internal order, and thus can be specified one by one. They are necessary in building loops.
