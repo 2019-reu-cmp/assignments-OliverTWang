@@ -1,0 +1,14 @@
+1: Strings and lists are both ordered, so you can track the nth element in them.They both are capable of containing any number, character, and symbol. But string is one whole chunk, with each character/number/symbol as its basic element, while each element in a list can itself be a series of character/number/symbols.
+
+2: List comprehensions are useful because they allow further manipulation of elements in the list instead of directly reading them, which saves time and is necessary sometimes when you try to divide the list according to some order e.g. zipor enumerate.
+
+3:
+try
+	import matplotlib
+except Exception as e:
+        print('matplotlib is not installed', e)
+else:
+        print('matplotlib is installed')
+ 
+4: I don't know matrix yet. I'll come back next year... maybe...
+ 
